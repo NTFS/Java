@@ -1,0 +1,165 @@
+CIS 225 JAVA (Video)
+
+Okay first off, I'm going to go into the type of programming environments and methods that would most likely be relative to a work environment, then go into the actual structure and definitions of each programming techniques used as well as broke down definitions of most relative terms.
+
+=======================================================
+AGILE software development is a group of methods 
+in which requirements and solutions evolutionize through collabarative self-organinizing team with different expertise working toward a common goal. This promotes continuous improvement, early delivery, and encourages flexible response to change.
+=======================================================
+PAIR programming is a agile software development technique in which 2 programmers works as a pair together on one workstation.
+The one writes code (also known as the driver), while the other reviews each line of code that is typed.
+This frees the driver to focus their attention on the tactical aspects of completing the task, while using the observer as the safety net and guide.
+=======================================================
+Extreme Programming (also known as XP in short) is a software development method which is intended to improve software quality and response to changing customer requirements and needs. As a type of agile software development it supports frequent releases in short development cycles, which is intended to improve the productivity and introduce checkpoints and in return open up a window for new customer requirements to be adopted.
+=======================================================
+
+
+DEFINE PROGRAMMING PARADIGMS:
+A programming paradigm is a style of computer programming, a way of building the structure and elements 
+of all computer programs. Capabilities and styles of various programming languages are defined by their
+supported programming paradigms; some programming languages are designed to follow only one paradigm,
+while others support multiple paradigms. Most often distinguised programming paradigms are:
+
+Imperative, Declarative, Functional, Object Oriented, Logical, Symbolic, and Aspect-Oriented Programming
+
+-) Imperative programming:
+In other words, Necessary Programming is focused on describing how the program works.
+Imperative programming describes the computing in terms of statements that change a programs state.
+In the same relative way natural languages expresses commands to take action. 
+Imperative programs just simply define sequences of commands for the computer to perform.
+This term is also used in contrast to declarative programming. which:
+
+-) Declarative
+Declarative programming focuses on what the program should accomplish without actually 
+prescribing how to do it in terms of sequences of actions to be taken.
+Declaritive programming expresses logic of computation without describing it's control flow.
+This style of programming is used in attempt to reduce or eliminate side affects by 
+describing 'what' the program should accomplish in terms of the problem domain, rather than
+describing 'how' to go about accomplishing it as a sequence of the programming language primitives.
+
+Language primitives are units with meaning. Such as semantics, which can be the if and else statements.
+Predifined computational statements.
+To look deeper into the meaning of language primitives, if we look at a program written in assembly/or machine level,
+it uses low level units, otherwise known as machine instructions. We could go more in depth with this,
+such as microcode which interprets the machine code to microcode instructions on the embodied machine. (the hardware)
+
+Back on task.
+
+-) Functional Programming:
+Functional programming is a programming paradigm that is more mathematically programmed code.
+It treats computation as the evaluation of mathematical functions so it can avoid state-changing and mutable data.
+Think of mutable as 'variable' or in other words, "Can Change".
+It is a declarative programming paradigm, which means the programming is done in expressions.
+When programming using functional code, the output value of a function depends only on the arguments-
+that are inputted to the function. 
+
+-) Object Oriented:
+Object Oriented programming (also known as OOP) is a programming paradigm which is data structures 
+(data structures are just a particular way of organizing data in a computer so it can be used efficiently.)
+that contain data in forms of fields, also known as attributes; and code that is in the form of procedures, known as methods.
+OOP takes code and data in concept of the object that is created. The object is an abstract data type,-
+which abstract data type (also known as ADT) is a mathematical model for a certain class and data structures that have
+similar behavior; or similar programming semantics.)
+with polymorphism and inheritance.
+
+Polymorphism (in other words, occuring in several different forms), is the supplying of single interface to different data types.
+and
+Inheritance is when an object or class is based on another object or class, using the same implementation to maintain the
+same behavior. It is a way to reuse code without creating additional independent extensions of the original public classes and interfaces. In other words, more efficiency in the code.
+
+-) Logic:
+Logic programming paradigmn is a set of sentences in logical form (in other words mathematically form),
+expressing facts and rules of a problem domain. In a nutshell, the rules are written in form of clauses and is read declaratively as logical implications.
+
+-) Symbolic Programming:
+Is a programming paradigm in which the program can manipulate it's own formulas and program components as if they were plain data. Flippin sweet if you ask me. Anyway...
+It uses complex process that can be developed to build more intricate process by combining smaller units of logic or functionality. In conclusion, the program can modify themselves and appear to "learn", like aritificial intelligence. 
+
+
+
+Aspect-Oriented Programming, in short (AOP)
+is: A programming paradigm that aims to increase modularity.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ (Explanations)
+(+) (Modularity explained)
+
+(which modularity is a software design technique used to emphasize seperating the functionality of the program
+into independent and interchangeable modules (hence the term modularity).
+AOP allows seperation of cross-cutting concerns:
+
+(+) (Cross Cutting explained)
+
+which cross cutting is:
+-) which is where parts of a program that rely on or affect other parts of the system) 
+
+Cross-Cutting Concerns can mostly be responsible for code tangling and scattering:
+
+(+) (scattering and tangling explained)
+
+which,
+-) Scattering is: when you have Code duplication or similar code distributed throughout the program modules.
+and 
+-) Tangling is:  Mixing two or more concerns that are implemented in the same body of code,
+making it more difficult to understand. While making changes to one implementation may cause
+unintended changes to other tangled concerns.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//Back on task
+
+AOP aims to encapsulate these cross cutting concerns into aspects to retain this modularity.
+This keeps the isolation and reuse of code.
+
+Which brings us to: Aspect oriented software development, which isolates secondary or supporting functions
+from the main program's business logic (otherwise known as domain logic).
+
+Business logic is the part of a program that encodes some aspects of business and determines how data can be created, stored, changed and displayed.
+
+
+
+
+
+GITHUB:
+Inheritance
+Encapsulate
+aritificial
+Disassemble
+00P
+A0P
+syscaII
+NTFS
+
+
+fbook:
+syscaII
+bytearray
+pseudoinstruction
+pseudoopcode
+suffixed
+OGHacking
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
