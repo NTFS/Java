@@ -1,0 +1,197 @@
+4.1) done
+4.2) MusicOrganizer object created, called removeFile(0). No error, nothing happens as MusicOrganizer is an object,
+and removeFile is a function that has a parameter of int and checks that with the files.size(), otherwise does nothing.
+4.3) It removes the first file at location (0) in the array, and moves the next one at point (1) in the array to (0).
+4.4) Done.
+4.5) private ArrayList<Book> Books;
+     private ArrayList<String> cs101;
+     cs101 = new Arraylist<Book>();
+4.6) private ArrayList<MusicTrack> tracks;
+4.7) library, cs101 and track: 
+Books = new ArrayList<Book>();
+cs101 = new ArrayList<String>();
+4.8) 10 objects = 9
+4.9) 
+private string getObject(int ndex)
+{
+ return files.get(index);
+}
+4.10) 14
+4.11) 
+private void addFavTrack()
+{
+  files.add(favoriteTrack);
+}
+
+4.12) 
+private void removeDates()
+{
+  dates.remove(3);
+}
+
+4.13) 5
+4.14)
+private void checkIndex(int index)
+{
+  if(index >= 0 && size()-1)
+	{
+	  MusicOrganizer.get(index);
+	  System.out.println("valid");
+	}
+   else
+	{
+	  return false
+	}
+
+
+}
+4.15) 
+private Boolean validIndex(int index)
+{ 
+  if(index >= 0 && size()-1)
+	{
+	  MusicOrganizer.get(index);
+	  return true;
+	}
+   else
+	{
+	  return false
+	}
+}
+
+4.16) 
+public void listFile(int index)
+    {
+        if(validIndex(index)) {
+            String filename = files.get(index);
+            System.out.println(filename);
+        }
+public void removeFile(int index)
+    {
+        if(validIndex() == true) {
+            files.remove(index);
+        }
+    }
+
+4.17)Done.
+
+4.18) 
+listAllFiles
+they're all Arraylists of type String. So return type String.
+Parameters needed would be the index of each item in the ArrayList<>();
+
+4.19) yes. As files it return the value of each item at index int in the array;
+
+4.20) added listAllFiles
+4.21) works
+4.22) done. Used code Pad and ran .remove, .size, and .isEmpty
+4.23) Breakpoint. got it.
+4.24) 
+public void listAllFiles()
+    {
+        for(String filename : files) {
+            System.out.println(filename);
+        }
+    }
+4.25) 
+/**
+     * List the names of files matching the given search string.
+     * @param searchString The string to match.
+     */
+    public void listMatching(String listString)
+    {
+        for(String filename : files) {
+            if(filename.contains(listString)) {
+                System.out.println(filename);
+            }
+        }
+    }
+
+4.26) done.
+
+4.27) Didn't quite comprehend what I was supposed to do, I looked at V4. so i just copied it over.
+
+4.28) Requires me to do the previous part. I kinda used V4 to help.
+
+4.29) while(!found) if(keys...) { return false; }
+
+4.30) 
+int index = 10;
+while(index <= 10 && index >= 95)
+{
+  System.out.println(index)
+  index = index + 5;
+}
+4.31)
+int index = 0;
+int total;
+while(index <= 10)
+{
+  total = total + index;
+  index = index + 1;
+}
+4.32
+int index = 0;
+int total;
+int minimumVal;
+int maximumVal;
+while(index >= minimumVal && index <= maximumVal)
+{
+  total = total + index;
+  index = index + 1;
+}
+4.33) 
+isPrime(int n)
+{
+	if(n%2 && n-1 >= 0)
+	{
+	 return true;
+	}
+	else
+	{
+	 return false;
+	}
+}
+
+4.34) done. 
+
+4.35) set playCount field to Track Class. Done
+
+4.36) MusicOrganizer incement when played. Done.
+
+4.37) added mutator methods, and static so it can be modifed.
+
+4.38) done. Now it will stop before playing new track.
+
+4.39)
+public void removeTrack(String remove)
+    {
+        Iterator<Track> it = tracks.iterator();
+        while(it.hasNext()) {
+        Track t = it.next();
+        String artist = t.getArtist();
+        if(artist.equals(remove)) {
+        it.remove();
+        }
+    }
+    }
+
+4.40)
+
+4.41)
+
+4.42)
+
+4.43)
+
+4.44)
+
+4.45) 
+
+
+
+
+
+
+
+
