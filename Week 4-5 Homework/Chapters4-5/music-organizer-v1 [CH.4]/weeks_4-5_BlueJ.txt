@@ -188,10 +188,28 @@ public void removeTrack(String remove)
 
 4.45) 
 
+5.1) opened up. ran.
+
+5.2) The structure of class documentation is the import lib needed,
+implemented interfaces, constructor and method and how it is assigned.
+The imported lib needed, and the implemented interfaces as well as constructor and method.
+
+5.3) Tests is if the string starts with a specified prefix (letter/char); while,
+the seconds one test if the substring of the string beginning at the specified index starts with the specified prefix.
 
 
+5.4) Yes, the endswith (String sufix), and it's boolean.
 
+5.5) length().
 
+5.6) Easy because they're in alphabetical order on the oracle/api website.
 
+5.7) The trim method: Returns a copy of the string, with leading and trailing whitespace omitted.
+private String text(String yourText)
+{
+ return yourText.Trim();
+}
+
+5.8) 
 
 
